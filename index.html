@@ -6,6 +6,38 @@
 </head>
 <body>
 <h1> PAG DE APOLO</h1>
-<h3>POR MI, MI NOMBRE</h3>
+<h3>christian</h3>
+<form name="registro">
+	<table> 
+		<tr> 
+			<tr><td>Numero:</td>
+			<td><input type="text" name="dato1" id=¨dato1¨></td></tr>
+            <tr><td>Numero:</td>
+            <td><input type="text" name="dato2" id=¨dato2¨></td></tr>
+         </tr>
+        
+         <td>operacion :</td>
+         <td><input type="button" name="enviar"value="+" onclick="sumadedatos()">
+         <input type="button" name="enviar"value="−" onclick="restadedatos()">
+         <input type="button" name="enviar"value="*" onclick="multiplicaciondedatos()">
+         <input type="button" name="enviar"value="÷" onclick="restadedatos()"></td>
+         </table>
+         <table>
+                  <tr> 
+                  	<td><stronge>resultado</td>
+                     <td><input type="text" name="baki" id=¨baki¨></td>
+                   </tr>
+                    </table>
+      </form>
+       <script type="text/javascript">
+        function sumadedatos(){
+var d1=parseInt(document.getElementById('dato1').value);
+var d1=parseInt(document.getElementById('dato2').value);
+document.registro.baki.value=d1+d2;
+}
+
+
+         </table>
+</form>
 </body>
 </html>
